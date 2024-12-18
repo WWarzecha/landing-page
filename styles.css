@@ -13,7 +13,8 @@ html {
 
 .navigation-bar,
 .under-nav,
-.content {
+.content,
+.sign-up-container {
     width: 75%;
 }
 
@@ -86,6 +87,7 @@ li a:hover {
     width: 100px;
     height: 30px;
     font-weight: 700;
+    color: white;
 }
 
 .sign-up:hover {
@@ -186,4 +188,33 @@ li a:hover {
 .signature {
     font-weight: 700;
     align-self: flex-end;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    color: white;
+    border-radius: 8px;
+}
+
+.sign-up-container .sign-up {
+    border: 1px solid white;
+}
+
+.sign-up-text .top {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sign-up-text .bot {
+    color: #cad7ec;
 }
