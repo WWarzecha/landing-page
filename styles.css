@@ -218,3 +218,10 @@ li a:hover {
 .sign-up-text .bot {
     color: #cad7ec;
 }
+
+.footer {
+    text-align: center;
+    color: #cad7ec;
+    background-color: #1f2937;
+    padding: 40px 0;
+}
